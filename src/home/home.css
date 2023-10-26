@@ -1,0 +1,118 @@
+.gai-logo-img {
+   height: 64px;
+   margin-right: 20px;
+   width: 64px;
+}
+
+.main {
+   align-items: center;
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   min-height: 100%;
+   min-width: 860px;
+   padding: 0 10px;
+   text-align: center;
+}
+
+.gai-logo {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 75px;
+}
+
+.gai-logo-title {
+   color: #fff;
+   font-size: 24px;
+   font-weight: 300;
+   height: 60px;
+   letter-spacing: .5px!important;
+   line-height: 30px;
+   text-align: start;
+   text-shadow: 1px 1px rgb(0 0 0 / 8%);
+   width: 460px;
+}
+
+.main-block {
+   background-color: #fff;
+   border-radius: 4px;
+   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 25%);
+   width: 820px;
+   height: 500px;
+}
+
+ .links-title {
+   color: #000;
+   display: block;
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 40px;
+   opacity: .8;
+   text-align: center;
+}
+
+
+.background{
+   background-image: url("./back.jpg"); /* The image used */
+  
+   height: 100vh; /* You must set a specified height */
+   background-position: center; /* Center the image */
+   background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+ .link {
+   border: 1px solid #fff;
+   cursor: pointer;
+   
+   margin-bottom: 10px;
+   padding: 10px;
+   width: calc(100% / 3);
+}
+.start-links.one-role .link {
+   width: 25%!important;
+}
+.one-roles {
+   border-top: 1px solid #e1e4eb;
+   display: flex;
+   background: #fff;
+   justify-content: center;
+   padding: 12px 20px;
+}
+
+.one-role-value {
+   background-color: #edf0f7;
+   border-radius: 13px;
+   color: #8893a5;
+   font-size: 13px;
+   line-height: 18px;
+   margin: 5px;
+   padding: 2px 12px;
+   text-align: center;
+}
+
+ .footer {
+   align-items: center;
+   background-color: #007fff;
+   border-radius: 0 0 4px 4px;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   min-height: 70px;
+   padding: 0 15px;
+   
+}
+
+.start-links {
+   padding: 20px 20px 10px;
+}
+
+.footer-person {
+   align-items: center;
+   cursor: pointer;
+   display: flex;
+   overflow: hidden;
+   width: 70%;
+   margin-right: 20px;
+}
